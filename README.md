@@ -1,12 +1,36 @@
-# Algorithmic Trading
-This repository contains notebooks with research on various strategies.
+# 📈 Algorithmic Trading
 
-$\textbf{at1.ipynb}$: Trend following strategy
+This repository contains Jupyter notebooks with research on various algorithmic trading strategies, including trend following, machine learning models, statistical arbitrage, and reinforcement learning.
 
-$\textbf{at4_1.ipynb}$ and $\textbf{at4_2.ipynb}$: Strategies based on machine learning (Linear Regression, Lasso, Comb, Random Forest, Cut Boost), hyperparameter tuning, walk-forward optimization.
+## Contents
 
-$\textbf{at7.ipynb}$: Statistical arbitrage, pair trading. Search for the most correlated asset pairs, checking statistical tests of series stationarity, spread, etc.
+- **`at1.ipynb`** – Trend Following Strategy  
+  Implementation of a basic trend-following strategy using moving averages and signal thresholds.
 
-$\textbf{at9.ipynb}$: Strategy aggregation, realization dynamic allocation algorithm that calculates optimal portfolio strategy weights in real time.
+- **`at4_1.ipynb`** and **`at4_2.ipynb`** – Machine Learning Based Strategies  
+  Strategies using models such as:
+  - Linear Regression  
+  - Lasso Regression  
+  - Combined Models  
+  - Random Forest  
+  - CatBoost (with hyperparameter tuning)  
+  Also includes walk-forward optimization techniques.
 
-$\textbf{addition.ipynb}$: Fixing the data leak in the CatBoost strategy. Implementing a new approach to forecasting several steps ahead using LSTM. An RL-based strategy
+- **`at7.ipynb`** – Statistical Arbitrage / Pair Trading  
+  - Search for the most correlated asset pairs  
+  - Conduct statistical tests (ADF, KPSS)  
+  - Check spread stationarity and mean reversion properties
+
+- **`at9.ipynb`** – Strategy Aggregation and Dynamic Allocation  
+  - Aggregation of multiple strategies  
+  - Dynamic portfolio weight allocation in real-time  
+  - Use of recursive updating and exponential decay factors
+
+- **`addition.ipynb`** – Advanced Enhancements  
+  - Fixed data leakage in CatBoost strategy  
+  - Implemented LSTM model to forecast multiple steps ahead  
+  - Prototype of a reinforcement learning-based strategy
+
+---
+
+🔍 Feel free to explore the notebooks and reach out if you have suggestions or questions!
